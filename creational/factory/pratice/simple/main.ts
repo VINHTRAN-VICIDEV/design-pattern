@@ -27,7 +27,6 @@ class TransportFactory {
 
 function main() {
   const random = Math.round(Math.random() + 1);
-  console.log('random', random);
   const transportFactory = new TransportFactory();
   const transport = transportFactory.createTransport(random);
   if (transport) {
